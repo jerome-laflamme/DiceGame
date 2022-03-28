@@ -4,6 +4,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgObjet", "ProgObjet\Prog
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapesV1", "ShapesV1\ShapesV1.csproj", "{4523145B-984F-4C15-9409-568DC55793DB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WriteImage", "WriteImage\WriteImage.csproj", "{6A672958-5665-4684-B040-3A9EFC43A9E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrawShapes", "DrawShapes\DrawShapes.csproj", "{2B9FFC21-A019-440C-8F92-29D24C4FDCE3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,13 @@ Global
 		{4523145B-984F-4C15-9409-568DC55793DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4523145B-984F-4C15-9409-568DC55793DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4523145B-984F-4C15-9409-568DC55793DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A672958-5665-4684-B040-3A9EFC43A9E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A672958-5665-4684-B040-3A9EFC43A9E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A672958-5665-4684-B040-3A9EFC43A9E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A672958-5665-4684-B040-3A9EFC43A9E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B9FFC21-A019-440C-8F92-29D24C4FDCE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B9FFC21-A019-440C-8F92-29D24C4FDCE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B9FFC21-A019-440C-8F92-29D24C4FDCE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B9FFC21-A019-440C-8F92-29D24C4FDCE3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
