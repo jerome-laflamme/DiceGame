@@ -35,24 +35,7 @@ namespace ProgObjet
             Console.WriteLine(Math.Round(2.5));
             Console.WriteLine(Math.Round(2.5, MidpointRounding.AwayFromZero));
 
-            // p4.X = -2;
-            try
-            {
-                p4.X = -2;
-            }
-            catch (ArgumentException exception)
-            {
-                Console.WriteLine(exception.Message);
-            }
-            
-            try
-            {
-                p4.Y = -4;
-            }
-            catch (ArgumentException exception)
-            {
-                Console.WriteLine(exception.Message);
-            }
+
         }
     }
 }

@@ -1,29 +1,28 @@
-# README #
+# Programmation Orientée Objet
 
-This README would normally document whatever steps are necessary to get your application up and running.
+## Développement Logiciel
 
-### What is this repository for? ###
+### Cégep de Shawinigan
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+## Contenu
 
-### How do I get set up? ###
+### Références
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+1. Introduction à la programmation orientée objet (POO) en C#
+[progOOC#](https://bpesquet.developpez.com/tutoriels/csharp/programmation-orientee-objet-csharp/)
 
-### Contribution guidelines ###
+### Semaines
 
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+1. Introduction à la prog OO; classe `Point` V1
+    - lecture :
+      [progOOC#](https://bpesquet.developpez.com/tutoriels/csharp/programmation-orientee-objet-csharp/)
+        - II. Initiation à la programmation orientée objet
+        - III. Principaux concepts objets
+2. Dessiner des figures géométriques version non-OO (`ex1.md`)
+3. Figures géométriques
+    1. Classe `Point` V1 : validation et exceptions, méthode Draw
+    2. Solutions exercice 1; Exercice 2 : première version OO de l'exercice 1
+    3. méthode `Equals`
+        - lecture :
+          [progOOC#](https://bpesquet.developpez.com/tutoriels/csharp/programmation-orientee-objet-csharp/)
+            - IV. Gestion des objets en mémoire

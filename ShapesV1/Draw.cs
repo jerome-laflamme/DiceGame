@@ -2,7 +2,7 @@ using SixLabors.ImageSharp;
 
 namespace ShapesV1;
 
-public class Draw
+public static class Draw
 {
     public static void DrawHLine(Canvas canvas, int x, int y, int width, Color color)
     {
