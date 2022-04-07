@@ -53,21 +53,22 @@ public class Point
     public Point(Point other) : this(other.X, other.Y, other.DrawColor)
     {
     }
-
+    
     public override bool Equals(object? obj)
     {
         if (obj == null || GetType() != obj.GetType())
         {
             return false;
         }
-
+    
         Point other = (Point)obj;
-        return X == other.X && Y == other.Y;
+        return X == other.X && Y == other.Y && DrawColor == other.DrawColor;
     }
-
+    
+    
     public override int GetHashCode()
     {
-        return HashCode.Combine(X, Y);
+        return HashCode.Combine(X, Y, DrawColor);
     }
 
     public override string ToString()
@@ -107,6 +108,7 @@ public class Point
 
     public void Draw(Canvas canvas)
     {
-        canvas[X, Y] = DrawColor;
+        // canvas[X, Y] = DrawColor;
+        canvas.SetPixel(X, Y, DrawColor);
     }
 }

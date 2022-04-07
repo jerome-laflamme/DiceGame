@@ -10,7 +10,6 @@ public static class DrawSolution
         {
             for (int i = Math.Max(x, 0); i < x + width && i < canvas.Width; i++)
             {
-                // canvas.SetPixel(i, y, color);
                 canvas.SetPixel(i, y, color);
             }
         }
@@ -128,8 +127,8 @@ public static class DrawSolution
     //     for (int i = -radius; i <= radius; i++)
     //     {
     //         int j = Convert.ToInt32(Math.Round(Math.Sqrt(radius * radius - i * i), MidpointRounding.AwayFromZero));
-    //         canvas[x+i, y+j] = color;
-    //         canvas[x+i, y-j] = color;
+    //         canvas.SetPixel(x+i, y+j, color);
+    //         canvas.SetPixel(x+i, y-j, color);
     //     }
     // }
 }
