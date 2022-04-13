@@ -26,13 +26,13 @@ public class Person
         get
         {
             DateTime today = DateTime.Today; 
-            int temp = today.Year - Dob.Year;
+            int age = today.Year - Dob.Year;
             if (today.Month < Dob.Month || today.Month == Dob.Month && today.Day < Dob.Day)
             {
-                temp--;
+                age--;
             }
 
-            return temp;
+            return age;
         }
     }
 
