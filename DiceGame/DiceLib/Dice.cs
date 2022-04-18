@@ -4,12 +4,12 @@ namespace DiceLib;
 
 public class Dice
 {
-    public int FaceNumber { get; private set; }
+    public int FaceNumber { get; }
     public int DiceValue { get; set; }
 
-    public Dice()
+    public Dice(int faceNumber = 6)
     {
-        FaceNumber = SetFaceNumber();
+        FaceNumber = faceNumber;
         DiceValue = 1;
     }
 
@@ -40,7 +40,7 @@ public class Dice
     }
     public void Throw()
     {
-        Console.WriteLine("ROLLING! Guess what's the number? ");
+        Console.WriteLine("ROLLING!");
 
         Random rnd = new Random();
         DiceValue =  rnd.Next(1, FaceNumber);
@@ -70,7 +70,7 @@ public class Dice
                 "\u2684",
                 "\u2685"
             };
-            return unicode[DiceValue];
+            return unicode[DiceValue - 1];
         }
         return base.ToString();
     }
