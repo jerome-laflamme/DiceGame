@@ -48,6 +48,7 @@ public class Program
         }
 
         List<Person> personlist = new List<Person>();
+
         personlist.Add(new Person(5, "Billy Bob", DateOnly.Parse("1988-04-05")));
         personlist.Add(person3);
         personlist.Insert(0, person1);
@@ -55,5 +56,10 @@ public class Program
         {
             Console.WriteLine(person);
         }
+
+		static int IndexOf(Person[] data, Person target)
+		{
+			return -1;
+		}
     }
 }

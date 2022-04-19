@@ -13,6 +13,7 @@ public class Dice
         DiceValue = 1;
     }
 
+    public int getRandomDice();
     public int SetFaceNumber()
     {
         Console.WriteLine("What dice do you want to roll? " +

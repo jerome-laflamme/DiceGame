@@ -8,7 +8,7 @@ namespace DiceGame
     {
         static void Main()
         {
-            Dice[] diceArray = new Dice[5];
+            /*Dice[] diceArray = new Dice[5];
             for (int i = 0; i < diceArray.Length; i++)
             {
                 diceArray[i] = new Dice();
@@ -18,9 +18,9 @@ namespace DiceGame
             {
                 dice.Throw();
                 Console.WriteLine(dice.ToString());
-            }
+            }*/
 
-            /*List<Dice> diceList = new List<Dice>();
+            List<Dice> diceList = new List<Dice>();
             for (int i = 0; i < 5; i++)
             {
                 diceList.Add(new Dice());
@@ -29,7 +29,7 @@ namespace DiceGame
             foreach (var dice in diceList)
             {
                 Console.WriteLine(dice);
-            }*/
+            }
         }
     }
 }
