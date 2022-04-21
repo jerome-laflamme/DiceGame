@@ -59,7 +59,14 @@ public class Program
 
 		static int IndexOf(Person[] data, Person target)
 		{
-			return -1;
+            for (int i = 0; i < data.Length; i++)
+            {
+                if (target.Equals(data[i]))
+                {
+                    return i;
+                }
+            }
+            return -1;
 		}
     }
 }
